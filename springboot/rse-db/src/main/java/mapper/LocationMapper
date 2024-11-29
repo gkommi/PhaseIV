@@ -1,0 +1,5 @@
+public interface LocationMapper {
+    List<Location> displayLocationView();
+    List<Location> displayLocation();
+    Integer addLocation(Location location);
+}
